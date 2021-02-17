@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Projekte
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Alle
+  filter: "all"
+- name: Beruflich
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Blog
+  role: Owner
+  timeline: "2020 - Heute"
+  url: "https://blog.ntec.dev"
+  summary: Ein Blog über diverse Hobby-Projekte
+  tags: ["hobby", "blog"]
+
+- name: Youtube-Channel-Badge
+  role: Owner
+  timeline: "2020 - 2020"
+  repo: "https://github.com/ntec-io/Youtube-Channel-Badge"
+  summary: Shields.io API für Youtube Kanäle um den API Key zu schützen. Geschrieben in Go.
+  tags: ["hobby", "youtube"]
+
+- name: Youtube Kanal
+  logo: /images/sections/projects/kubernetes.png
+  role: Owner
+  timeline: "2018 - Heute"
+  url: "https://youtube.com/user/ntec"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Mein Youtube Kanal über Coding-Projekte und Tutorials.
+  tags: ["hobby", "youtube"]

@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Docker
+  icon: "images/sections/skills/go.png"
+  summary: "Fähig Anwendungen zu containerisieren und diese zu verwalten. Selbst diese Seite läuft in Docker!"
+  url: "https://kubernetes.io/"
+
+- name: Java
+  icon: "images/sections/skills/git.png"
+  summary: "Meine allererste Programmiersprache, welche ich bin mir selber in der Schulzeit beigebracht habe und mittlerweile täglich im Berufsleben einsetze."
+  url: "https://java.com/"
+
+- name: Go
+  icon: "images/sections/skills/go.png"
+  summary: "Bin ich momentan am lernen. Ich bin fasziniert von der Einfachheit und Performance von Go und denke, dass dies die Sprache der Zukunft ist."
+  url: "https://golang.org/"
+
+- name: Linux
+  icon: "images/sections/skills/kubernetes.png"
+  summary: "Hauptbetriebssystem zum Programmieren. Fähig im Schreiben von einfachen Bash/Shell-Skripten."
+
+- name: Git
+  icon: "images/sections/skills/git.png"
+  summary: "Erfahren im git-basierter Entwicklung. Hauptsächlich Github."

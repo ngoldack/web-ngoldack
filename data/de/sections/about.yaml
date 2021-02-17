@@ -1,0 +1,75 @@
+# section information
+section:
+  name: Über mich
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Azubi für Fachinformatik in Anwendungsentwicklung
+# your company information
+company:
+  name: ARAG IT GmbH
+  url: "https://www.arag.de/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+#summary: 'Ich bin ein leidenschaftlicher Software Entwickler. Ich liebe es eigene Hobby-Projekte in die Tat umzusetzen.'
+summary: 'Ich bin ein leidenschaftlicher Software Entwickler und interessiere mich in der Informatik von Deployments in Kubernetes bis hin zur Umsetzung von komplexen Datenstrukturen und Algorithmen. Ich liebe es eigene Projekte die als simple Idee entspringen, in die Realität umzusetzen.'
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "nicolas-goldack@live.de"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/ngoldack"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "#"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "#"
+
+# # your soft skills
+# # give the percentage between 50 to 100 with 5 intervals.
+# # currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 80
+  color: blue
+- name: Team Work
+  percentage: 95
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: pink
+- name: Hard Working
+  percentage: 85
+  color: green
+- name: Fast Learner
+  percentage: 95
+  color: sky
+- name: Problem Solving
+  percentage: 90
+  color: orange
