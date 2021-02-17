@@ -1,0 +1,9 @@
+public/
+resources/
+.github/
+.git/
+README.md
+Dockerfile
+.gitignore
+.gitmodules
+docker-compose.yml

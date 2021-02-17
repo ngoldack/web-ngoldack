@@ -1,9 +1,21 @@
 version: '3.3'
+
 services:
-  server:
-    image: klakegg/hugo:0.80.0
+  web-ngoldack:
+    image: klakegg/hugo:latest
     command: server
+    networks:
+      - proxy
+    environment:
+      - ENV=production
     volumes:
       - ".:/src"
-    ports:
-      - "1313:1313"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.web-ngoldack.rule=Host(`ngoldack.de`, `www.ngoldack.de`)
+      - traefik.http.routers.web-ngoldack.entrypoints=https
+      - traefik.http.services.web-ngoldack.loadbalancer.server.port=1313
+
+networks:
+  proxy:
+    external: true
