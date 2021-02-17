@@ -7,7 +7,7 @@ services:
     networks:
       - proxy
     environment:
-      - ENV=production
+      - environment=production
     volumes:
       - ".:/src"
     labels:
